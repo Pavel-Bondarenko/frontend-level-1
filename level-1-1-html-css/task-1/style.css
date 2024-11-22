@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(149, 159, 177);
+}
+
+header {
+    height: 250px;
+    margin: auto;
+    color: white;
+    background-color: rgb(15, 49, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header p {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: 2 1;
+    justify-content: space-around;
+}
+
+img {
+    flex: 0 0 auto;
+    border-radius: 1vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+.info {
+    flex: 0 0 65vw;
+    width: 50vw;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.summary {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.skills p {
+    font-size: 24px;
+}
+
+.hard_skills_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hard_skills_content section {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex: 1 0 auto;
+}
+
+.hard_skills_content h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hard_skills_content li {
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 0;
+    font-size: 24px;
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer a {
+    margin-left: 20px;
+}
+
+footer a svg {
+    fill: rgb(10, 102, 194);
+    width: 50px;
+    height: 50px;
+}
